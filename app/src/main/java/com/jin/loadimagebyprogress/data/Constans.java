@@ -8,6 +8,6 @@ import java.io.File;
  * Created by Administrator on 2014/12/29.
  */
 public class Constans {
-    //imageloaderÍ¼Æ¬SD¿¨Í¼Æ¬»º´æÂ·¾¶
+    //imageloaderå›¾ç‰‡SDå¡å›¾ç‰‡ç¼“å­˜è·¯å¾„
     public static final String IMAGE_CACHEPATH = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "imageloader" + File.separator + "Cache";
 }

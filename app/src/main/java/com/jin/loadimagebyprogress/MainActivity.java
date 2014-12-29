@@ -53,7 +53,7 @@ public class MainActivity extends ActionBarActivity {
                 mProgressbar.setVisibility(View.INVISIBLE);
             }
         },new ImageLoadingProgressListener() {
-            //±ØĞëÉèÖÃ»º´æµ½disk ·ñÔò²»µ÷ÓÃ´Ë½Ó¿Ú
+            //å¿…é¡»è®¾ç½®ç¼“å­˜åˆ°disk å¦åˆ™ä¸è°ƒç”¨æ­¤æ¥å£
             @Override
             public void onProgressUpdate(String s, View view, int current, int total) {
                 Log.v(TAG,"progress============>" + (double)current/(double)total);
@@ -68,7 +68,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    // Imageloader ³õÊ¼»¯ÅäÖÃ
+    // Imageloader åˆå§‹åŒ–é…ç½®
     ImageLoader imageLoader = ImageLoader.getInstance();
 
     DisplayImageOptions options = new DisplayImageOptions.Builder()

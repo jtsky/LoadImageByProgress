@@ -24,7 +24,7 @@ public class MyApplication extends Application {
 
     }
 
-    // 初始化第三方图片下载ImageLoader库的配置参数
+    // 鍒濆鍖朓mageLoader
     public static void initImageLoader(Context context) {
 
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(
